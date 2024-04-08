@@ -45,6 +45,9 @@
 		}
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/desktop-lite:1": {}
+		"ghcr.io/devcontainers/features/desktop-lite:1": {
+			"password": "developer",
+			"webPort": "6080"
+		}
 	}
 }
