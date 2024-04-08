@@ -48,6 +48,5 @@
 		"ghcr.io/devcontainers/features/desktop-lite:1": {}
 	},
 	"runArgs": ["--init", "--shm-size=1g"],
-	"forwardPorts": [6080],
 	"overrideCommand": false
 }
