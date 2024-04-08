@@ -45,8 +45,14 @@
 		}
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/desktop-lite:1": {}
+		"ghcr.io/devcontainers/features/desktop-lite:1": {
+			"password": "developer"
+		}
 	},
 	"runArgs": ["--init", "--shm-size=1g"],
+	"forwardPorts": [
+		6080,
+		5901
+	],
 	"overrideCommand": false
 }
